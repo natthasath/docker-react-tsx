@@ -17,4 +17,10 @@ services:
 
 networks:
   default:
+    name: docker_react_tsx_network
     driver: bridge
+
+volumes:
+  data:
+    name: docker_react_tsx_data
+    driver: local
